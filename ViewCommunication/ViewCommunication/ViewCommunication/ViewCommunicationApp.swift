@@ -11,7 +11,13 @@ import SwiftUI
 struct ViewCommunicationApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            //ContentView()
+            var book = Book(title: "T-1", author: "A-1")
+            NewBookView()
+            DetailView(book: book)
+                .onAppear() {
+                    book.title = "T-NEW"
+                }
         }
     }
 }

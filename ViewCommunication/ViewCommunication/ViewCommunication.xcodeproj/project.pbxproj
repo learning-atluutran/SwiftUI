@@ -14,6 +14,7 @@
 		0FB4B5F82AF410BD00BF7E51 /* ViewCommunicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB4B5F72AF410BD00BF7E51 /* ViewCommunicationTests.swift */; };
 		0FB4B6022AF410BD00BF7E51 /* ViewCommunicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB4B6012AF410BD00BF7E51 /* ViewCommunicationUITests.swift */; };
 		0FB4B6042AF410BD00BF7E51 /* ViewCommunicationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB4B6032AF410BD00BF7E51 /* ViewCommunicationUITestsLaunchTests.swift */; };
+		0FB4B6122AF423DA00BF7E51 /* BookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB4B6112AF423DA00BF7E51 /* BookView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		0FB4B5FD2AF410BD00BF7E51 /* ViewCommunicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewCommunicationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FB4B6012AF410BD00BF7E51 /* ViewCommunicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCommunicationUITests.swift; sourceTree = "<group>"; };
 		0FB4B6032AF410BD00BF7E51 /* ViewCommunicationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCommunicationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0FB4B6112AF423DA00BF7E51 /* BookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		0FB4B5DA2AF410BA00BF7E51 = {
 			isa = PBXGroup;
 			children = (
+				0FB4B6102AF423A900BF7E51 /* Books */,
 				0FB4B5E52AF410BA00BF7E51 /* ViewCommunication */,
 				0FB4B5F62AF410BD00BF7E51 /* ViewCommunicationTests */,
 				0FB4B6002AF410BD00BF7E51 /* ViewCommunicationUITests */,
@@ -125,6 +128,14 @@
 				0FB4B6032AF410BD00BF7E51 /* ViewCommunicationUITestsLaunchTests.swift */,
 			);
 			path = ViewCommunicationUITests;
+			sourceTree = "<group>";
+		};
+		0FB4B6102AF423A900BF7E51 /* Books */ = {
+			isa = PBXGroup;
+			children = (
+				0FB4B6112AF423DA00BF7E51 /* BookView.swift */,
+			);
+			path = Books;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0FB4B5E92AF410BA00BF7E51 /* ContentView.swift in Sources */,
+				0FB4B6122AF423DA00BF7E51 /* BookView.swift in Sources */,
 				0FB4B5E72AF410BA00BF7E51 /* ViewCommunicationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
